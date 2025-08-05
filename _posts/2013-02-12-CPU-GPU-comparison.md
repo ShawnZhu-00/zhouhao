@@ -12,7 +12,7 @@ on the Internet. Besides some obvious implications (e.g., fresh perspectives
 from practitioners on the research subjects), it is a strong indicator that 
 my paper was not completely irrelevant junk that get published but nobody 
 really cares about it. Today, I came across a tweet thread about our
-[SSLShader](http://www.eecs.berkeley.edu/~sangjin/static/pub/nsdi2011_sslshader.pdf)
+[SSLShader](http://www.eecs.berkeley.edu/~sangjin/{{ site.baseurl }}/static/pub/nsdi2011_sslshader.pdf)
 work, or more specifically, about the RSA implementation on GPUs, which is 
 what I was responsible for, as a second author of the paper.
 Soon I found a somewhat depressing tweet about the paper.
@@ -25,15 +25,15 @@ The most problematic(?) parts of the paper are as follows, but please read the
 full paper if interested:
 
 <p style="text-align: center">
-<img src='static/blog_images/2013-02-12-fig.png' alt='Figure4' style="width: 100%"> 
+<img src='{{ site.baseurl }}/static/blog_images/2013-02-12-fig.png' alt='Figure4' style="width: 100%"> 
 </p>
 
 <p style="text-align: center">
-<img src='static/blog_images/2013-02-12-table.png' alt='Table1' /> 
+<img src='{{ site.baseurl }}/static/blog_images/2013-02-12-table.png' alt='Table1' /> 
 </p>
 
 <p style="text-align: center">
-<img src='static/blog_images/2013-02-12-text.png' alt='Text' />
+<img src='{{ site.baseurl }}/static/blog_images/2013-02-12-text.png' alt='Text' />
 </p>
 
 The figure, table, and text compare the RSA performance between the GPU
@@ -210,7 +210,7 @@ Here comes the list:
   about this.
 
 * The graphs above. They should have had lines for multi-core cases, 
-  [as we had done for another research project](http://www.eecs.berkeley.edu/~sangjin/static/pub/nsdi2010_packetshader.pdf).
+  [as we had done for another research project](http://www.eecs.berkeley.edu/~sangjin/{{ site.baseurl }}/static/pub/nsdi2010_packetshader.pdf).
   One small excuse: please blame conferences with page limits.
   In many Computer Science research areas, including mine, conferences are
   primary venues for publication. Not journals with no page limits.
