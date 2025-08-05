@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{page.title}}</title>
 
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Hao Zhou's Blog" href="rss.xml" />
-    <link href="{{ site.baseurl }}/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Hao Zhou's Blog" href="/rss.xml" />
+    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Google Analytics -->
     <script type="text/javascript">
