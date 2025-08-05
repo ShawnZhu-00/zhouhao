@@ -1,0 +1,489 @@
+---
+layout: default
+section: home
+title: "Hao Zhou（周浩)"
+---
+
+<style>
+  li.paper {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  li.paper .title {
+    font-size: 150%;
+  }
+
+  li.paper .me {
+    background-color: #eeffee;
+  }
+
+  li.hight {
+    font-weight: bold;
+    font-size: 12pt;
+  }
+  h2{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    position: relative;
+  }
+
+
+  /* 微信二维码样式 */
+.wx-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.wx-qrcode {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  width: 216px;
+  height: 216px;
+}
+
+.wx-qrcode::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: white;
+}
+
+.wx-qrcode img {
+  width: 200px !important;
+  height: 200px !important;
+  display: block !important;
+  object-fit: cover !important;
+}
+
+
+div.wx-icon:hover .wx-qrcode {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.wx-icon{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.wx-icon:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+  .label{
+    cursor: pointer;
+  }
+  .kuai{
+    width:  10px;
+    height: 20px;
+    background-color: #000;
+    display: inline-block;
+    margin: auto 0;
+    margin-right: 10px;
+  }
+</style>
+
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164510176-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164510176-1');
+
+  function toNewTab(url){
+    window.open(url, '_blank');
+  }
+</script>
+
+
+
+<div class="row">
+  <div class="col-sm-3 col-md-3" style="display: flex; align-items: flex-end;">
+    <img src="static/2024_p.png" class="img-thumbnail" width="500px" style="margin-bottom: 0px;">
+  </div>
+  <div class="col-sm-9 col-md-9" style="margin-top: 10px;">
+    <h1 >Hao Zhou (周浩)</h1>
+    <p>Research Associate Professor</p>
+    <p>
+      <a href="https://air.tsinghua.edu.cn//" target="_blank">Insititute for AI Industry Research (AIR), Tsinghua University</a><br>
+    </p>
+
+    <p style="display: flex;align-items: center;"> <img src="static/email.png" width="20" style="margin-right: 5px;" alt="@" style="vertical-align: -1px"> Email: <a href="mailto:zhouhao@air.tsinghua.edu.cn">zhouhao@air.tsinghua.edu.cn</a> & <a href="mailto:haozhou0806@gmail.com">haozhou0806@gmail.com</a></p>
+    <!-- <p style="display: flex;align-items: center;"> <img src="static/location.png" width="20" style="margin-right: 5px;" alt="@" style="vertical-align: -1px">Location: Beijing, China</p> -->
+
+    <div style="margin-top: 15px;"  style="display: flex;align-items: center;">
+
+      <div class="wx-icon" onclick="toNewTab('https://github.com/zhouh')" style="display: inline-block;">
+        <img src="static/Github.png" alt="GitHub" style="width: 30px; height: 30px; margin-right: 10px;">
+      </div>
+
+      <div class="wx-icon hover-test" style="display: inline-block;">
+        <img src="static/wx_black.png" alt="WeChat" style="width: 30px; height: 30px; margin-right: 10px;">
+        <div class="wx-qrcode">
+        <img src="static/project/qrcode.png" alt="微信二维码" />
+      </div>
+    </div>  
+
+      <div class="wx-icon" onclick="toNewTab('https://www.xiaohongshu.com/user/profile/65465f81000000000301f9bd')" style="display: inline-block;">
+        <img src="static/rn_black.png" alt="ResearchGate" style="width: 30px; height: 30px; margin-right: 10px;">
+      </div>
+
+      <div class="wx-icon" onclick="toNewTab('https://www.zhihu.com/people/generative-si/posts')" style="display: inline-block;">
+        <img src="static/zh.png" alt="Zhihu" style="width: 30px; height: 30px; margin-right: 10px;">
+      </div>
+
+      <div class="wx-icon" onclick="toNewTab('https://x.com/GenSI_official')" style="display: inline-block;">
+        <img src="static/x.png" alt="X/Twitter" style="width: 30px; height: 30px; margin-right: 10px;">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<p style="margin-top: 20px;">
+  <font size="3">
+    Hello!
+    I am a research associate professor at <a target="_blank" href="https://air.tsinghua.edu.cn/">Insititute for AI Industry Research
+      (AIR), Tsinghua University</a>. My research interest is developing Generative AI models to better
+    understand/generate discerte symbols including text, small molecules and proteins. Previously, I was a Research
+    Scientist/Manager at <a href="bytedance.com/en/">Bytedance AI lab</a>. Currently, I lead the Generative Symbolic
+    Intelligence group at Tsinghua AIR and co-lead the SIA Lab, a Joint Laboratory of THUAIR and ByteDance on LLM
+    research. Here is my <a href="https://github.com/zhouh/zhouh.github.io/blob/master/files/my_cv.pdf">CV</a>.
+
+</p>
+
+<hr>
+
+
+<h2> <div class="kuai"></div>  Research Highlight</h2>
+
+<div class="row" style="margin-bottom: 30px;">
+  <div class="col-md-4">
+    <img src="static/project/pro3.png" class="img-thumbnail" style="width: 100%; height: 200px; object-fit: cover;">
+  </div>
+  <div class="col-md-8">
+    <h3 style="color: #2c3e50; margin-bottom: 15px; margin-top: 0px;">Seed Diffusion Preview</h3>
+    <p style="text-align: justify; line-height: 1.6;">
+      A large scale language model based on discrete-state diffusion, specializing in code generation, achieves an inference speed of 2,146 token/s,
+       a 5.4x improvement over autoregressive models of comparable size.
+    </p>
+    <p>
+      <span class="label label-primary" onclick="window.open('https://lf3-static.bytednsdoc.com/obj/eden-cn/hyvsmeh7uhobf/sdiff_updated.pdf', '_blank')">Paper</span>
+      <span class="label label-success" onclick="window.open('https://studio.seed.ai/exp/seed_diffusion/', '_blank')">Demo</span>
+    </p>
+  </div>
+</div>
+
+
+<div class="row" style="margin-bottom: 30px;">
+  <div class="col-md-4">
+    <img src="static/project/pro4.png" class="img-thumbnail" style="width: 100%; height: 200px; object-fit: cover;">
+  </div>
+  <div class="col-md-8">
+    <h3 style="color: #2c3e50; margin-bottom: 15px; margin-top: 0px;">AMix-1: A Pathway to Test-Time Scalable Protein Foundation Model</h3>
+   
+    <p style="text-align: justify; line-height: 1.6;">
+      We introduce AMix-1, a powerful protein foundation model built on Bayesian Flow Networks and empowered by a systematic training methodology, 
+      encompassing pretraining scaling laws, emergent capability analysis, in-context learning strategy, and test-time scaling algorithm. 
+    </p>
+    <p>
+      <span class="label label-primary" onclick="window.open('https://arxiv.org/pdf/2507.08920', '_blank')">Paper</span>
+      <span class="label label-success" onclick="window.open('https://github.com/GenSI-THUAIR/AMix-1', '_blank')">Code</span>
+      <span class="label label-success" onclick="window.open('https://huggingface.co/GenSI/AMix-1-1.7B', '_blank')">Model</span>
+    </p>
+  </div>
+</div>
+
+
+<div class="row" style="margin-bottom: 30px;">
+  <div class="col-md-4">
+    <img src="static/project/pro2.png" class="img-thumbnail" style="width: 100%; height: 200px; object-fit: cover;">
+  </div>
+  <div class="col-md-8">
+    <h3 style="color: #2c3e50; margin-bottom: 15px; margin-top: 0px;">MemAgent: Reshaping Long-Context LLM with Multi-Conv RL based Memory Agent</h3>
+    <p style="text-align: justify; line-height: 1.6;">
+      We propose a novel long-context processing framework — MemAgent, which directly optimizes long-context tasks through end-to-end 
+      Reinforcement Learning without altering the underlying model architecture. MemAgent has demonstrated superb long-context capabilities, 
+      being able to extrapolate from an 8K context trained on 32K text to a 3.5M QA task with performance loss < 5% and achieves 95%+ accuracy 
+      in 512K RULER test.
+    </p>
+    <p>
+      <span class="label label-primary" onclick="window.open('https://arxiv.org/pdf/2507.02259', '_blank')">Paper</span>
+      <span class="label label-success" onclick="window.open('https://github.com/BytedTsinghua-SIA/MemAgent', '_blank')">Code</span>
+      <span class="label label-info" onclick="window.open('https://huggingface.co/datasets/BytedTsinghua-SIA/hotpotqa', '_blank')">Data</span>
+      <span class="label label-info" style="background-color: #777777;" onclick="window.open('https://huggingface.co/BytedTsinghua-SIA/RL-MemoryAgent-14B', '_blank')">Model</span>
+    </p>  
+  </div>
+</div>
+
+<div class="row" style="margin-bottom: 30px;">
+  <div class="col-md-4">
+    <img src="static/project/pro1.png" class="img-thumbnail" style="width: 100%; height: 200px; object-fit: cover;">
+  </div>
+  <div class="col-md-8">
+    <h3 style="color: #2c3e50; margin-bottom: 15px; margin-top: 0px;">DAPO: an Open-Source LLM Reinforcement Learning System at Scale</h3>
+    <p style="text-align: justify; line-height: 1.6;">
+We propose the Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO) algorithm. By making our work publicly available, 
+we provide the broader research community and society with practical access to scalable reinforcement learning, enabling all to benefit 
+from these advancements. Our system is based on the awesome verl framework. Thanks for their great work! Applying DAPO training to Qwen2.5-32B 
+base model proves to outperform the previous state-of-the-art DeepSeek-R1-Zero-Qwen-32B on AIME 2024, achieving 50% accuracy with 50% less 
+training steps.
+    </p>
+    <p>
+      <span class="label label-primary" onclick="window.open('https://arxiv.org/abs/2507.14203', '_blank')">Paper</span>
+      <span class="label label-success" onclick="window.open('https://github.com/bytedance/DAPO', '_blank')">Code</span>
+      <span class="label label-info" onclick="window.open('https://huggingface.co/datasets/BytedTsinghua-SIA/DAPO-Math-17k', '_blank')">Data</span>
+      <span class="label label-info" style="background-color: #777777;" onclick="window.open('https://huggingface.co/BytedTsinghua-SIA/DAPO-Qwen-32B', '_blank')">Model</span>
+    </p>  
+  </div>
+</div>
+
+
+<hr>
+
+
+<h2> <div class="kuai"></div> Recent Talks</h2>
+
+<ul>
+  <li type="disc">
+    <font size="3">Invited talk to NLPCC 2018, student workshop</font>
+  </li>
+  <li type="disc">
+    <font size="3">Invited talk to CWMT 2017 of "How to ".</font>
+  </li>
+
+
+</ul>
+<hr>
+
+
+<h2> <div class="kuai"></div> Recent Publication</h2>
+
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <meta http-equiv="cache-control" content="no-cache" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="bibtex_js.js" type="text/javascript" charset="utf-8"></script>
+  <bibtex src="recent.bib"></bibtex>
+
+  <script>
+    $(function () {
+      $("#Fontselector").on("change", function () {
+        var font = $("#Fontselector option:selected").text();
+
+        $('.title.fonters').each(function () {
+          $(this).css("font-family", font);
+        });
+      });
+    });
+    function reset() {
+      $("select").each(function () {
+        localStorage.setItem($(this).attr("id"), "");
+        $(this).val("");
+      });
+      $("#searchbar").val("");
+      $("#searchbar").trigger('change');
+    }
+  </script>
+
+  <style>
+    html,
+    body,
+    span,
+    h1 {
+      /*font-family: "Times New Roman", Times, serif;*/
+      font-size: 16px;
+    }
+
+    bibtex {
+      display: none;
+    }
+
+    .searchbar {
+      margin-left: 0px;
+    }
+
+    #bibtex_errors {
+      margin-top: 5px;
+      color: red;
+    }
+
+    h1.header {
+      margin-left: 5px;
+    }
+
+    h1.YEAR {
+      font-size: 18px;
+      font-weight: bold;
+      display: inline;
+      margin-left: 8px;
+    }
+
+    [class="Hao Zhou"] {
+      font-weight: bold;
+      background-color: #eeffee;
+    }
+  </style>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <a name="top"></a>
+
+  <div class="bibtex_structure">
+    <div style="padding-bottom:10px;"></div>
+    <div class="sort journal" extra="DESC string">
+      <div class="templates"></div>
+    </div>
+  </div>
+
+  <div id="bibtex_display">
+
+    <div class="if bibtex_template" style="display: none;">
+
+      <ul>
+        <li>
+
+          <span class="if journal !nolink">
+            <a class="bibtexVar" href="http://www.cs.cmu.edu/~mmv/papers/+BIBTEXKEY+.pdf" extra="BIBTEXKEY">
+              <span style="text-decoration: underline;" class="title"></span>,
+            </a>
+          </span>
+          <span class="if title">
+            <font size="4" color="blue" style="line-height: 0!important;" ><span class="title" ></span></font>
+          </span>
+
+          <!-- <div class="if student">AAA</div> -->
+
+          <div class="if author">
+            <span class="if student">
+              <font size="4" color="tomato">*</font>
+            </span><span class="author"></span>
+          </div>
+          <div>
+            <span class="if journal"><em><span class="journal"></span></em>,</span>
+            <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+            <span class="if editor"><span class="editor"></span> (editors),</span>
+            <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+            <span class="if institution"><span class="institution"></span>,</span>
+            <span class="if address"><span class="address"></span>,</span>
+            <span class="if volume"><span class="volume"></span>,</span>
+            <span class="if journal number">(<span class="number"></span>),</span>
+            <span class="if pages"> pages <span class="pages"></span>,</span>
+            <span class="if month"><span class="month"></span>,</span>
+            <span class="if year"><span class="year"></span>.</span>
+            <span class="if note">
+              <font color="red"><span class="note"></span></font>
+            </span>
+          </div>
+          <span class="if comment">
+            <div><span class="comment"></span></div>
+          </span>
+          <span>
+            <a class="bibtexVar label label-success" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
+              aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">Bib</a>
+          </span>
+          <span class="if eprint"><a class="bibtexVar label label-primary" href="+EPRINT+" role="button"
+              extra="eprint">paper</a></span>
+          <span class="if url"><a class="bibtexVar label label-warning" href="+URL+" role="button"
+              extra="url">url</a></span>
+          <span class="if software"><a class="bibtexVar label label-danger" href="+SOFTWARE+" role="button"
+              extra="software">Software</a></span>
+          <span class="if code"><a class="bibtexVar label label-danger" href="+CODE+" role="button"
+              extra="code">code</a></span>
+          <span class="if slides"><a class="bibtexVar label label-warning" href="+SLIDES+" role="button"
+              extra="slides">slides</a></span>
+          <span class="if abstract">
+            <a class="bibtexVar label label-default" role="button" data-toggle="collapse" href="#abs+BIBTEXKEY+"
+              aria-expanded="false" aria-controls="abs+BIBTEXKEY+" extra="BIBTEXKEY">abstract</a>
+          </span>
+          <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+            <div class="well">
+              <pre><span class="bibtexraw noread"></span></pre>
+            </div>
+          </div>
+          <div class="bibtexVar collapse" id="abs+BIBTEXKEY+" extra="BIBTEXKEY">
+            <div>
+              <pre><span class="abstract"></span></pre>
+            </div>
+          </div>
+          <div style="display:none"><span class="bibtextype"></span></div>
+          <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+<hr>
+<h2>  <div class="kuai"></div> Honors and Awards</h2>
+<ul>
+  <li> Best Short Paper of INLG, 2022 </li>
+  <li> Ranked #1 on WMT EN-DE translation, 2021 </li>
+  <li> CCF NLPCC Distinguished Young Scientist, 2021 </li>
+  <li> Best Paper Award of ACL, 2021</li>
+  <li> CAAI Doctoral Dissertation Award, 2019 </li>
+  <li> Outstanding Doctoral Dissertation of Nanjing University, 2019 </li>
+  <li> National Scholarship, 2011/2016 </li>
+</ul>
+
+
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+  $('.paper').click(function () { $($(this).find('.abstract')).toggle() })
+
+  // 限制Recent Publication只显示前3条
+  $(document).ready(function () {
+    setTimeout(function () {
+      $('#bibtex_display li').each(function (index) {
+        if (index >= 2) {
+          $(this).hide();
+        }
+      });
+    }, 100);
+  });
+</script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+  $('.circle').click(function () { $($(this).find('.alumi')).toggle() })
+</script>
